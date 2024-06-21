@@ -4,8 +4,8 @@
   "description": "convert px values into rem ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "convert": "node index.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ketan-Chaudhary/px-to-rem-converter.git"
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Ketan-Chaudhary/px-to-rem-converter/issues"
   },
-  "homepage": "https://github.com/Ketan-Chaudhary/px-to-rem-converter#readme"
+  "homepage": "https://github.com/Ketan-Chaudhary/px-to-rem-converter#readme",
+  "devDependencies": {
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "postcss-pxtorem": "^6.1.0"
+  }
 }
