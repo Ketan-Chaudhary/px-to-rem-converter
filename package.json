@@ -11,7 +11,12 @@
     "url": "git+https://github.com/Ketan-Chaudhary/px-to-rem-converter.git"
   },
   "keywords": [
-    "px-to-rem"
+    "px-to-rem",
+    "css",
+        "converter",
+        "px",
+        "rem",
+        "postcss"
   ],
   "author": "Ketan Chaudhary",
   "license": "Apache-2.0",
