@@ -1,6 +1,6 @@
 {
   "name": "px-to-rem-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert px values into rem ",
   "main": "index.js",
   "scripts": {
