@@ -1,10 +1,13 @@
 {
   "name": "px-to-rem-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "convert px values into rem ",
   "main": "index.js",
   "scripts": {
     "convert": "node index.js"
+},
+"bin": {
+  "px-to-rem-converter": "./index.js"
 },
   "repository": {
     "type": "git",
